@@ -1,3 +1,4 @@
+<img width="1973" height="1513" alt="showout" src="https://github.com/user-attachments/assets/bc69f1a5-dc6a-45bd-bc41-7f960e912d41" />
 # Host-Guest Calculator (MATLAB GUI)
 
 ## 📌 Project Overview
