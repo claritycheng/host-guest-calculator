@@ -1,34 +1,48 @@
 # Host-Guest Calculator (MATLAB GUI)
 
-## 📌 Project Overview
-This project is a MATLAB-based interactive GUI for host–guest binding system analysis.  
-It supports multi-component systems including 1, 2, 3, and 4 guest cases, enabling calculation of free/complex concentrations and binding constants.
+A MATLAB App Designer GUI for host-guest binding system analysis. The calculator supports one-, two-, three-, and four-guest systems and can calculate free host concentration, free guest concentration, complex concentration, and complexed percentage.
 
----
+## Features
 
-## 🚀 Features
-- Interactive GUI (App Designer)
+- Interactive MATLAB GUI built with App Designer
 - Supports One / Two / Three / Four guest systems
-- Automatic calculation of:
-- Free host concentration
-- Free guest concentration
-- Complex concentration
-- Binding percentage
-- Real-time output visualization
+- Calculates free host, free guest, and complex concentrations
+- Calculates complexed percentage of each guest
+- Includes switchable speculation mode for complex or guest concentration
+- Uses green indicators for input values and red indicators for output values
 
----
+## Interface Preview
 
-## 📂 File Structure
-- `host_guest_4_01.mlapp` → Main GUI application
-- `oneguestfsolve.m` → Core numerical solver
-- `main.m` → Entry script to launch GUI
+### One Guest
 
----
+![One guest interface](docs/images/one-guest.png)
 
-## ▶ How to Run
+### Two Guests
 
-### Method 1 (Recommended)
-Run directly in MATLAB:
+![Two guest interface](docs/images/two-guest.png)
+
+### Three Guests
+
+![Three guest interface](docs/images/three-guest.png)
+
+### Four Guests
+
+![Four guest interface](docs/images/four-guest.png)
+
+## File Structure
+
+- `host_guest_4_3.mlapp` - Main MATLAB App Designer application
+- `host_guest_4_3.prj` - MATLAB project file
+- `oneguestfsolve.m` - Numerical solver for the one-guest calculation
+- `main.m` - Entry script to launch the GUI
+- `docs/images/` - Screenshots used in this README
+
+## How to Run
+
+Open MATLAB, set this repository as the current folder, and run:
 
 ```matlab
 main
+```
+
+You can also open `host_guest_4_3.mlapp` directly in MATLAB App Designer.
