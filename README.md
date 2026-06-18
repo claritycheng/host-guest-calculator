@@ -2,6 +2,12 @@
 
 A MATLAB App Designer GUI for host-guest binding system analysis. The calculator supports one-, two-, three-, and four-guest systems and can calculate free host concentration, free guest concentration, complex concentration, and complexed percentage.
 
+## Download
+
+Download the packaged MATLAB app from the GitHub Release page:
+
+[Host-Guest Calculator v1.0.0](https://github.com/claritycheng/host-guest-calculator/releases/tag/v1.0.0)
+
 ## Features
 
 - Interactive MATLAB GUI built with App Designer
